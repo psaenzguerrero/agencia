@@ -43,6 +43,13 @@ header a{
     border-radius: 10px;
     padding: 1%;
 }
+.botonH:hover{
+    background-color: white;
+    color: #495FC2;
+    border: 1px solid #495FC2;
+    border-radius: 10px;
+    padding: 1%;
+}
 header input{
     padding: 20px;
     border-radius: 20px;
@@ -134,4 +141,39 @@ header button{
 #s2{
     background-color: white;
     display: flex;
+    justify-content: space-around;
+}
+#s2>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#s2>div>h3{
+    padding-left: 1%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #495FC2;
+    
+    >p{
+        width: 30%;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    div>img{
+        width: 15%;
+    }
+    >div{
+        margin-top: 5%;
+    }
+    >div>div>div{
+        margin-top: 5%;
+    }
+
 }
