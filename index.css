@@ -9,13 +9,13 @@ img{
 }
 header{
     background-color: #495FC2;
-    height: 20vh;
+    height: 5vh;
     position: fixed;
     width: 100%;
 
 }
 nav{
-    margin-top: 3.5%;
+    margin-top: 2%;
     background-color: white;
     display: flex;
     text-align: center;
@@ -66,7 +66,7 @@ header button{
     border-radius: 10px;
 }
 #s1{
-    padding-top: 10%;
+    padding-top: 1%;
     background-image: url(./img/fondo\ 1.png);
     background-size: cover;
     background-position: center;
@@ -74,26 +74,24 @@ header button{
     height: 120vh;
 }
 #s1>div{
-    margin-top: 4%;
+    margin-top: 10%;
     background-color: rgba(255, 255, 255, 0.342);
     text-align: center;
 }
 #s1>div>div:nth-child(1){
-    text-align: center;
     padding-top: 4%;
-    height: 10vh;
 }
 #s1>div>div:nth-child(2){
-    padding-top: 4%;
     display: flex;
     justify-content: space-around;
-    height: 50vh;
+    height: 60vh;
+    align-items: center;
 }
-#s1>div>div:nth-child(2)>button{
+#s1>div>div:nth-child(2)>a{
     background-color: transparent;
     border-color: transparent;
 }
-#s1>div>div:nth-child(2)>button:hover>svg>path{
+#s1>div>div:nth-child(2)>a:hover>svg>path{
     background-color: transparent;
     border-color: transparent;
     fill: #495FC2; 
@@ -101,17 +99,21 @@ header button{
 }
 #s1>div>div:nth-child(2)>div{
     h2{
-        margin-top: 15%;
+        margin-top: 10%;
     }
-    button{
+    a{
         background-color: #495FC2;
         border-color: #495FC2;
-        padding: 0px 20px;
+        padding: 5px 0px;
         border-radius: 10px;
-        margin-top: 15%;
+        margin: 20%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
     }
 }
-#s1>div>div:nth-child(2)>div>button:hover{
+#s1>div>div:nth-child(2)>div>a:hover{
     background-color: white;
     border-color: white;
     svg>path{
@@ -122,7 +124,7 @@ header button{
 #s1 form{
     display: flex;
     justify-content: center;
-    padding-top: 10%;
+    padding-top: 8%;
     input:nth-child(1){
         margin-right: 5%;
         padding: 20px 150px;
@@ -153,6 +155,24 @@ header button{
 }
 #s2>div>h3{
     padding-left: 1%;
+}
+
+#s3{
+    padding-top: 10%;
+    background-image: url(./img/fondo\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    >div{
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0.600);
+        text-align: center;
+        padding-top: 20%;
+    }
+}
+option{
+    padding: 100px;
 }
 
 footer{
