@@ -371,7 +371,7 @@ form {
 .form-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 
 .form-row label {
