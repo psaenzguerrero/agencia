@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="./index.html">
+                    <img src="./img/Logo 1.png" alt="" >
+                </a>
+            
+                <a href="./index2.html" class="botonH">RESERVA TU HOTEL</a>
+                <a href="./index3.html" class="botonH">RESERVA TU VUELOV</a>
+                <a href="" class="botonH">DISFRUTA TU CRUCERO</a>
+            </div>
+            
+
+            <form action="" method="post">
+                <input type="text" name="buscador" placeholder="Buscador">
+                <button type="submit">
+                    <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25.8864 28.4616H24.3014L23.7397 27.7735C25.7739 24.7769 26.8919 20.951 26.8895 16.9942C26.8895 13.7182 26.1247 10.5157 24.6917 7.79181C23.2588 5.06788 21.2222 2.94484 18.8393 1.69116C16.4564 0.437475 13.8344 0.109454 11.3048 0.748577C8.77513 1.3877 6.45151 2.96526 4.62774 5.28177C2.80398 7.59827 1.56198 10.5497 1.05881 13.7628C0.55563 16.9759 0.813878 20.3063 1.80089 23.333C2.78791 26.3596 4.45936 28.9466 6.60388 30.7666C8.7484 32.5867 11.2697 33.5582 13.8489 33.5582C17.0789 33.5582 20.0482 32.0547 22.3353 29.5573L22.877 30.2709V32.284L32.9082 45L35.8975 41.2031L25.8864 28.4616ZM13.8489 28.4616C8.8533 28.4616 4.82073 23.3395 4.82073 16.9942C4.82073 10.649 8.8533 5.5269 13.8489 5.5269C18.8444 5.5269 22.877 10.649 22.877 16.9942C22.877 23.3395 18.8444 28.4616 13.8489 28.4616Z" fill="#495FC2"/>
+                    </svg>  
+                </button>
+            </form>
+
+        </nav>
+        
+    </header>
+    <main>
+        <section id="s1">
+            <div>
+                <div>
+                    <h1>ELIGE TUS VACACIONES SOÑADAS</h1>
+                </div>
+                <div>
+                    <a>
+                        <svg width="76" height="91" viewBox="0 0 76 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2496 33.1374C2.98102 39.1259 2.98103 51.4457 11.2496 57.4343L38.3514 77.063C48.2691 84.246 62.15 77.1603 62.15 64.9146L62.15 25.6571C62.15 13.4114 48.2692 6.32563 38.3514 13.5087L11.2496 33.1374Z" fill="white" stroke="#495FC2" stroke-width="10"/>
+                        </svg>   
+                    </a>
+                    <div>
+                        <img src="./img/c1.png" alt="">
+                        <h2>ELIGE BALEARES</h2>
+                        <a>
+                            <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.8864 28.4616H24.3014L23.7397 27.7735C25.7739 24.7769 26.8919 20.951 26.8895 16.9942C26.8895 13.7182 26.1247 10.5157 24.6917 7.79181C23.2588 5.06788 21.2222 2.94484 18.8393 1.69116C16.4564 0.437475 13.8344 0.109454 11.3048 0.748577C8.77513 1.3877 6.45151 2.96526 4.62774 5.28177C2.80398 7.59827 1.56198 10.5497 1.05881 13.7628C0.55563 16.9759 0.813878 20.3063 1.80089 23.333C2.78791 26.3596 4.45936 28.9466 6.60388 30.7666C8.7484 32.5867 11.2697 33.5582 13.8489 33.5582C17.0789 33.5582 20.0482 32.0547 22.3353 29.5573L22.877 30.2709V32.284L32.9082 45L35.8975 41.2031L25.8864 28.4616ZM13.8489 28.4616C8.8533 28.4616 4.82073 23.3395 4.82073 16.9942C4.82073 10.649 8.8533 5.5269 13.8489 5.5269C18.8444 5.5269 22.877 10.649 22.877 16.9942C22.877 23.3395 18.8444 28.4616 13.8489 28.4616Z" fill="white"/>
+                            </svg>  
+                        </a>
+                    </div>
+                    <div>
+                        <img src="./img/c2.png" alt="">
+                        <h2>ELIGE CANARIAS</h2>
+                        <a>
+                            <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.8864 28.4616H24.3014L23.7397 27.7735C25.7739 24.7769 26.8919 20.951 26.8895 16.9942C26.8895 13.7182 26.1247 10.5157 24.6917 7.79181C23.2588 5.06788 21.2222 2.94484 18.8393 1.69116C16.4564 0.437475 13.8344 0.109454 11.3048 0.748577C8.77513 1.3877 6.45151 2.96526 4.62774 5.28177C2.80398 7.59827 1.56198 10.5497 1.05881 13.7628C0.55563 16.9759 0.813878 20.3063 1.80089 23.333C2.78791 26.3596 4.45936 28.9466 6.60388 30.7666C8.7484 32.5867 11.2697 33.5582 13.8489 33.5582C17.0789 33.5582 20.0482 32.0547 22.3353 29.5573L22.877 30.2709V32.284L32.9082 45L35.8975 41.2031L25.8864 28.4616ZM13.8489 28.4616C8.8533 28.4616 4.82073 23.3395 4.82073 16.9942C4.82073 10.649 8.8533 5.5269 13.8489 5.5269C18.8444 5.5269 22.877 10.649 22.877 16.9942C22.877 23.3395 18.8444 28.4616 13.8489 28.4616Z" fill="white"/>
+                            </svg>  
+                        </a>
+                    </div>
+                    <div>
+                        <img src="./img/c3.png" alt="">
+                        <h2>ELIGE SICILIA</h2>
+                        <a>
+                            <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.8864 28.4616H24.3014L23.7397 27.7735C25.7739 24.7769 26.8919 20.951 26.8895 16.9942C26.8895 13.7182 26.1247 10.5157 24.6917 7.79181C23.2588 5.06788 21.2222 2.94484 18.8393 1.69116C16.4564 0.437475 13.8344 0.109454 11.3048 0.748577C8.77513 1.3877 6.45151 2.96526 4.62774 5.28177C2.80398 7.59827 1.56198 10.5497 1.05881 13.7628C0.55563 16.9759 0.813878 20.3063 1.80089 23.333C2.78791 26.3596 4.45936 28.9466 6.60388 30.7666C8.7484 32.5867 11.2697 33.5582 13.8489 33.5582C17.0789 33.5582 20.0482 32.0547 22.3353 29.5573L22.877 30.2709V32.284L32.9082 45L35.8975 41.2031L25.8864 28.4616ZM13.8489 28.4616C8.8533 28.4616 4.82073 23.3395 4.82073 16.9942C4.82073 10.649 8.8533 5.5269 13.8489 5.5269C18.8444 5.5269 22.877 10.649 22.877 16.9942C22.877 23.3395 18.8444 28.4616 13.8489 28.4616Z" fill="white"/>
+                            </svg>  
+                        </a>
+                    </div>
+                    <a>
+                        <svg width="77" height="92" viewBox="0 0 77 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M64.9237 58.4958C73.2054 52.5256 73.2327 40.2058 64.9775 34.199L37.9193 14.5102C28.0175 7.30522 14.1209 14.3601 14.0938 26.6058L14.0067 65.8632C13.9796 78.1089 27.8447 85.2254 37.7784 78.0644L64.9237 58.4958Z" fill="white" stroke="#495FC2" stroke-width="10"/>
+                        </svg>     
+                    </a>
+                </div>
+            </div>
+            
+
+            <form action="" method="post">
+                <input type="text" name="b1">
+                <input type="submit" name="busca" value="BUSCAR">
+            </form>
+        </section>
+        <section id="s2">
+            <div>
+                <img src="./img/p1.png" alt="">
+                <h3>UN GRAN SERVICIO A LA HORA DE COMPRAR</h3>
+            </div>
+            <div>
+                <img src="./img/p2.png" alt="">
+                <h3>USO BASTANTE INTUITIVO</h3>
+            </div>
+            <div>
+                <img src="./img/p3.png" alt="">
+                <h3>UNA ATENCION AL CLIENTE BASTANTE BUENA Y RAPIDA</h3>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Viajes.com forma parte de Viajes Holdings Inc., líder mundial en viajes online y servicios relacionados.
+            Copyright © 1996-2024 Viajes.com™. Todos los derechos reservados.</p>
+        <div>
+            <p>+34 656 65 75 03</p>
+            <p>correo_electronico@gmail.com</p>
+            <div>
+                <div>
+                    <img src="./img/insta.png" alt="">
+                    <img src="./img/facebook.png" alt="">
+                    <img src="./img/gmail.png" alt="">
+                    <img src="./img/whatssapp.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="./index.html">
+                    <img src="./img/Logo 1.png" alt="">
+                </a>
+
+                <a href="./index2.html" class="botonH">RESERVA TU HOTEL</a>
+                <a href="./index3.html" class="botonH">RESERVA TU VUELOV</a>
+                <a href="" class="botonH">DISFRUTA TU CRUCERO</a>
+            </div>
+
+
+            <form action="" method="post">
+                <input type="text" name="buscador" placeholder="Buscador">
+                <button type="submit">
+                    <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25.8864 28.4616H24.3014L23.7397 27.7735C25.7739 24.7769 26.8919 20.951 26.8895 16.9942C26.8895 13.7182 26.1247 10.5157 24.6917 7.79181C23.2588 5.06788 21.2222 2.94484 18.8393 1.69116C16.4564 0.437475 13.8344 0.109454 11.3048 0.748577C8.77513 1.3877 6.45151 2.96526 4.62774 5.28177C2.80398 7.59827 1.56198 10.5497 1.05881 13.7628C0.55563 16.9759 0.813878 20.3063 1.80089 23.333C2.78791 26.3596 4.45936 28.9466 6.60388 30.7666C8.7484 32.5867 11.2697 33.5582 13.8489 33.5582C17.0789 33.5582 20.0482 32.0547 22.3353 29.5573L22.877 30.2709V32.284L32.9082 45L35.8975 41.2031L25.8864 28.4616ZM13.8489 28.4616C8.8533 28.4616 4.82073 23.3395 4.82073 16.9942C4.82073 10.649 8.8533 5.5269 13.8489 5.5269C18.8444 5.5269 22.877 10.649 22.877 16.9942C22.877 23.3395 18.8444 28.4616 13.8489 28.4616Z"
+                            fill="#495FC2" />
+                    </svg>
+                </button>
+            </form>
+
+        </nav>
+
+    </header>
+    <main class="ba1">
+        <section id="s3">
+            <div>
+                <div>
+                    <p>¿VIAJE ALEATORIO?</p>
+                    <a href="#">
+                        <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M25.8864 28.4616H24.3014L23.7397 27.7735C25.7739 24.7769 26.8919 20.951 26.8895 16.9942C26.8895 13.7182 26.1247 10.5157 24.6917 7.79181C23.2588 5.06788 21.2222 2.94484 18.8393 1.69116C16.4564 0.437475 13.8344 0.109454 11.3048 0.748577C8.77513 1.3877 6.45151 2.96526 4.62774 5.28177C2.80398 7.59827 1.56198 10.5497 1.05881 13.7628C0.55563 16.9759 0.813878 20.3063 1.80089 23.333C2.78791 26.3596 4.45936 28.9466 6.60388 30.7666C8.7484 32.5867 11.2697 33.5582 13.8489 33.5582C17.0789 33.5582 20.0482 32.0547 22.3353 29.5573L22.877 30.2709V32.284L32.9082 45L35.8975 41.2031L25.8864 28.4616ZM13.8489 28.4616C8.8533 28.4616 4.82073 23.3395 4.82073 16.9942C4.82073 10.649 8.8533 5.5269 13.8489 5.5269C18.8444 5.5269 22.877 10.649 22.877 16.9942C22.877 23.3395 18.8444 28.4616 13.8489 28.4616Z"
+                                fill="#495FC2" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="b">
+                    <div class="container">
+                        <h1>Buscador de Hoteles</h1>
+                        <form class="buscador-form">
+                            <!-- Fechas de Viaje -->
+                            <div class="grupo">
+                                <label for="date">Fechas de Viaje:</label>
+                                <input type="date" id="start-date" name="start-date" required>
+                            </div>
+
+                            <!-- Número de Personas -->
+                            <div class="grupo">
+                                <label for="personas">Número de Personas:</label>
+                                <select id="personas" name="personas" required>
+                                    <option value="1">1 Persona</option>
+                                    <option value="2">2 Personas</option>
+                                    <option value="3">3 Personas</option>
+                                    <option value="4">4 Personas</option>
+                                    <option value="5">5+ Personas</option>
+                                </select>
+                            </div>
+
+                            <!-- Valoraciones -->
+                            <div class="grupo">
+                                <label for="ratings">Valoraciones:</label>
+                                <select id="ratings" name="ratings">
+                                    <option value="any">Cualquier valoración</option>
+                                    <option value="4+">4 estrellas o más</option>
+                                    <option value="3+">3 estrellas o más</option>
+                                    <option value="2+">2 estrellas o más</option>
+                                </select>
+                            </div>
+
+                            <!-- Rango de Precios -->
+                            <div class="grupo">
+                                <label for="precio">Rango de Precios :</label>
+                                <input type="number" id="min-precio" name="min-precio" placeholder="Mínimo" required>
+                            </div>
+
+                            <!-- Certificados -->
+                            <div class="grupo">
+                                <label for="Certificados">Certificados:</label>
+                                <select id="Certificados" name="Certificados">
+                                    <option value="any">Cualquier certificado</option>
+                                    <option value="eco-friendly">Eco-Friendly</option>
+                                    <option value="pet-friendly">Pet-Friendly</option>
+                                    <option value="safety-first">Safety First</option>
+                                </select>
+                            </div>
+
+                            <!-- Botón de Búsqueda -->
+                            <button type="submit" class="search-button">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+
+
+        </section>
+        <section id="s4">
+            <div class="mapa">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60128.00171694631!2d2.9497619208984375!3d39.5696001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297931f25786739%3A0x33ddfcd106f488fc!2sPalma%20de%20Mallorca%2C%20Illes%20Balears!5e0!3m2!1ses!2ses!4v1634346280531!5m2!1ses!2ses"
+                    width="100%" height="500" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+        <section id="s5">
+            <!-- Tarjeta de Hotel 1 -->
+            <div class="hotel-casilla">
+                <img src="https://via.placeholder.com/150" alt="Imagen del hotel">
+                <div class="hotel-info">
+                    <h2>Es Princep - The Leading Hotels of the World</h2>
+                    <p>Es Princep se encuentra en Palma de Mallorca, a 1 km del puerto de Palma, y cuenta con terraza en
+                        la azotea, piscina al aire libre y centro de spa. El Palma Yacht Club está a 1,4 km del Es
+                        Princep, mientras que la playa Ca’n Pere Antoni se encuentra a 550 metros del alojamiento. El
+                        aeropuerto de Palma de Mallorca, el más cercano, está a 7 km del Es Princep.</p>
+                    <div class="rating">⭐ 9,4 Excepcional</div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de Hotel 2 -->
+            <div class="hotel-casilla">
+                <img src="https://via.placeholder.com/150" alt="Imagen del hotel">
+                <div class="hotel-info">
+                    <h2>Hotel Samos</h2>
+                    <p>El establecimiento dispone de un restaurante amplio que sirve un buffet variado para el desayuno,
+                        el almuerzo y la cena. En las modernas zonas de bar de cubierta y al aire libre se pueden
+                        disfrutar de bebidas y aperitivos, y también hay pantallas de TV grandes con retransmisión de
+                        eventos deportivos y otros programas de entretenimiento.</p>
+                    <div class="rating">⭐ 8,3 Excelente</div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de Hotel 3 -->
+            <div class="hotel-casilla">
+                <img src="https://via.placeholder.com/150" alt="Imagen del hotel">
+                <div class="hotel-info">
+                    <h2>Castillo Hotel Son Vida, a Luxury Collection Hotel, Mallorca</h2>
+                    <p>El aparcamiento y el wifi son siempre gratis, para que puedas mantener el contacto y trasladarte
+                        con total libertad. Con una cómoda ubicación en la zona Palma de Mallorca de Mallorca, este
+                        establecimiento está cerca de las atracciones locales y de opciones gastronómicas interesantes.
+                        No puedes marcharte sin visitar Catedral. Con 5 estrellas, este establecimiento de alta calidad
+                        ofrece a los huéspedes acceso a jacuzzi, piscina cubierta y restaurante.</p>
+                    <div class="rating">⭐ 9,4 Excepcional</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Viajes.com forma parte de Viajes Holdings Inc., líder mundial en viajes online y servicios relacionados.
+            Copyright © 1996-2024 Viajes.com™. Todos los derechos reservados.</p>
+        <div>
+            <p>+34 656 65 75 03</p>
+            <p>correo_electronico@gmail.com</p>
+            <div>
+                <div>
+                    <img src="./img/insta.png" alt="">
+                    <img src="./img/facebook.png" alt="">
+                    <img src="./img/gmail.png" alt="">
+                    <img src="./img/whatssapp.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="./index.html">
+                    <img src="./img/Logo 1.png" alt="">
+                </a>
+
+                <a href="./index2.html" class="botonH">RESERVA TU HOTEL</a>
+                <a href="./index3.html" class="botonH">RESERVA TU VUELOV</a>
+                <a href="" class="botonH">DISFRUTA TU CRUCERO</a>
+            </div>
+
+
+            <form action="" method="post">
+                <input type="text" name="buscador" placeholder="Buscador">
+                <button type="submit">
+                    <svg width="36" height="45" viewBox="0 0 36 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25.8864 28.4616H24.3014L23.7397 27.7735C25.7739 24.7769 26.8919 20.951 26.8895 16.9942C26.8895 13.7182 26.1247 10.5157 24.6917 7.79181C23.2588 5.06788 21.2222 2.94484 18.8393 1.69116C16.4564 0.437475 13.8344 0.109454 11.3048 0.748577C8.77513 1.3877 6.45151 2.96526 4.62774 5.28177C2.80398 7.59827 1.56198 10.5497 1.05881 13.7628C0.55563 16.9759 0.813878 20.3063 1.80089 23.333C2.78791 26.3596 4.45936 28.9466 6.60388 30.7666C8.7484 32.5867 11.2697 33.5582 13.8489 33.5582C17.0789 33.5582 20.0482 32.0547 22.3353 29.5573L22.877 30.2709V32.284L32.9082 45L35.8975 41.2031L25.8864 28.4616ZM13.8489 28.4616C8.8533 28.4616 4.82073 23.3395 4.82073 16.9942C4.82073 10.649 8.8533 5.5269 13.8489 5.5269C18.8444 5.5269 22.877 10.649 22.877 16.9942C22.877 23.3395 18.8444 28.4616 13.8489 28.4616Z"
+                            fill="#495FC2" />
+                    </svg>
+                </button>
+            </form>
+
+        </nav>
+
+    </header>
+    <main>
+        
+        <section id="s6">
+            <div class="search-section">
+                <h2>Aeropuerto de Palma de Mallorca</h2>
+                <h3>Billete con destino fijado</h3>
+                <form>
+                    <div class="form-row">
+                        <label for="personas">Personas</label>
+                        <input type="number" id="personas" placeholder="Número de personas">
+                    </div>
+                    <div class="form-row">
+                        <label for="duracion">Duración</label>
+                        <input type="text" id="duracion" placeholder="Duración del viaje">
+                    </div>
+                    <div class="form-row">
+                        <label for="tarifa">Tarifa</label>
+                        <input type="text" id="tarifa" placeholder="Tarifa elegida">
+                    </div>
+                    <div class="form-row">
+                        <label for="servicio">Servicio de recogida</label>
+                        <input type="text" id="servicio" placeholder="Servicio de recogida">
+                    </div>
+                    <div class="form-row">
+                        <label for="necesidades">Necesidades médicas</label>
+                        <input type="text" id="necesidades" placeholder="Especificar necesidades médicas">
+                    </div>
+                    <div class="form-row">
+                        <label for="metodo">Método de pago</label>
+                        <input type="text" id="metodo" placeholder="Método de pago">
+                    </div>
+                    <button type="submit" class="submit-btn">Pago</button>
+                </form>
+            </div>
+    
+        </section>
+        <section id="s7">
+
+        </section>
+        
+        <!-- Sección de recomendación de estancia -->
+        <section id="s5">
+            <div class="hotel-casilla">
+                <img src="https://via.placeholder.com/150" alt="Imagen del hotel">
+                <div class="hotel-info">
+                    <h2>Es Princep - The Leading Hotels of the World</h2>
+                    <p>Es Princep se encuentra en Palma de Mallorca, a 1 km del puerto de Palma, y cuenta con terraza en
+                        la azotea, piscina al aire libre y centro de spa. El Palma Yacht Club está a 1,4 km del Es
+                        Princep, mientras que la playa Ca’n Pere Antoni se encuentra a 550 metros del alojamiento. El
+                        aeropuerto de Palma de Mallorca, el más cercano, está a 7 km del Es Princep.</p>
+                    <div class="rating">⭐ 9,4 Excepcional</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mapa -->
+        <section id="s4">
+            <div class="mapa">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60128.00171694631!2d2.9497619208984375!3d39.5696001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297931f25786739%3A0x33ddfcd106f488fc!2sPalma%20de%20Mallorca%2C%20Illes%20Balears!5e0!3m2!1ses!2ses!4v1634346280531!5m2!1ses!2ses"
+                    width="100%" height="500" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Viajes.com forma parte de Viajes Holdings Inc., líder mundial en viajes online y servicios relacionados.
+            Copyright © 1996-2024 Viajes.com™. Todos los derechos reservados.</p>
+        <div>
+            <p>+34 656 65 75 03</p>
+            <p>correo_electronico@gmail.com</p>
+            <div>
+                <div>
+                    <img src="./img/insta.png" alt="">
+                    <img src="./img/facebook.png" alt="">
+                    <img src="./img/gmail.png" alt="">
+                    <img src="./img/whatssapp.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #495FC2;
+    height: 5vh;
+    position: fixed;
+    width: 100%;
+
+}
+nav{
+    margin-top: 2%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 2%;
+}
+nav div a{
+    margin-left: 20px;
+}
+header a{
+    text-decoration: none;
+}
+.botonH{
+    background-color: #495FC2;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+}
+.botonH:hover{
+    background-color: white;
+    color: #495FC2;
+    border: 1px solid #495FC2;
+    border-radius: 10px;
+    padding: 1%;
+}
+header input{
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+header form{
+    display: flex;
+    margin-right: 2%;
+}
+header button{
+    padding: 0px 30px;
+    background-color: #FFC800;
+    border-color: #FFC800;
+    border-radius: 10px;
+}
+#s1{
+    padding-top: 1%;
+    background-image: url(./img/fondo\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+#s1>div{
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.342);
+    text-align: center;
+}
+#s1>div>div:nth-child(1){
+    padding-top: 4%;
+}
+#s1>div>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: center;
+}
+#s1>div>div:nth-child(2)>a{
+    background-color: transparent;
+    border-color: transparent;
+}
+#s1>div>div:nth-child(2)>a:hover>svg>path{
+    background-color: transparent;
+    border-color: transparent;
+    fill: #495FC2; 
+    stroke: white;
+}
+#s1>div>div:nth-child(2)>div{
+    h2{
+        margin-top: 10%;
+    }
+    a{
+        background-color: #495FC2;
+        border-color: #495FC2;
+        padding: 5px 0px;
+        border-radius: 10px;
+        margin: 20%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+#s1>div>div:nth-child(2)>div>a:hover{
+    background-color: white;
+    border-color: white;
+    svg>path{
+        fill: #495FC2;
+    }
+}
+
+#s1 form{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 8%;
+
+    input:nth-child(1){
+        margin-right: 5%;
+        padding: 20px 150px;
+        border-radius: 10px;
+        border-color: #495FC2;
+    }
+    input:nth-child(2){
+
+        padding: 20px 40px;
+        border-radius: 10px;
+        background-color: #495FC2;
+        border-color: #495FC2;
+        color: white;
+    }
+}
+#s2{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#s2>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#s2>div>h3{
+    padding-left: 1%;
+}
+
+#s3{
+    padding-top: 10%;
+    background-image: url(./img/fondo\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    >div{
+        margin-top: 2%;
+        background-color: rgba(255, 255, 255, 0.600);
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    >div>div:nth-child(1){
+        display: flex
+;
+        justify-content: space-between;
+        height: 5vh;
+        
+        margin-left: 15%;
+        margin-right: 15%;
+        >p{
+            background-color: #FFC800;
+            padding: 10px;
+            color: #495FC2;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        >a{
+            background-color: #FFC800;
+            padding: 10px;
+            color: #495FC2;
+            border-radius: 10px;
+            >svg{
+                height: 3vh;
+            }
+        }
+        >a:hover{
+            background-color: #495FC2;
+            padding: 10px;
+            border-radius: 10px;
+            >svg{
+                height: 3vh;
+                >path{
+                    fill: #FFC800;
+                }
+            }
+        }
+    }
+}
+.b{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+.container {
+    background: #495FC2;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+}
+.buscador-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grupo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #495FC2;
+}
+
+.search-button {
+    background: #FFC800;
+    color: #495FC2;
+    border: none;
+    padding: 0px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.search-button:hover {
+    background: #495FC2;
+    color: #FFC800;
+}
+.ba1{
+    background-color: #495FC2;
+}
+#s4{
+    .mapa {
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: 5px solid white;
+    }
+    
+}
+/* Estilos de Hoteles */
+#s5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-casilla {
+    width: 80%;
+    display: flex;
+    background-color: #d6e4ff;
+    border-radius: 10px;
+    border: 3px solid #ffd700;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.hotel-casilla img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.hotel-info {
+    flex-grow: 1;
+}
+
+.hotel-info h2 {
+    margin: 0;
+    font-size: 20px;
+}
+.hotel-info p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.rating {
+    font-weight: bold;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#s6{
+    display: flex;
+    padding-top: 15%;
+    justify-content: center;
+    background-image: url(./img/fondo\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-bottom: 6%;
+}
+.search-section {
+    background-color: #007bff;
+    padding: 40px;
+    color: white;
+}
+
+.search-section h2,
+.search-section h3 {
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+
+.form-row label {
+    width: 40%;
+}
+
+.form-row input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit-btn {
+    background-color: #ffcc00;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #495FC2;
+    
+    >p{
+        width: 30%;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    div>img{
+        width: 15%;
+    }
+    >div{
+        margin-top: 5%;
+    }
+    >div>div>div{
+        margin-top: 5%;
+    }
+
+}
+
+
