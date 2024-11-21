@@ -167,7 +167,7 @@ header button{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     >div{
         margin-top: 2%;
         background-color: rgba(255, 255, 255, 0.600);
@@ -192,104 +192,109 @@ header button{
             justify-content: center;
             align-items: center;
         }
-        >a{
-            background-color: #FFC800;
-            padding: 10px;
-            color: #495FC2;
-            border-radius: 10px;
-            >svg{
-                height: 3vh;
-            }
-        }
-        >a:hover{
-            background-color: #495FC2;
-            padding: 10px;
-            border-radius: 10px;
-            >svg{
-                height: 3vh;
-                >path{
-                    fill: #FFC800;
-                }
-            }
+        
+    }
+}
+.boton-lupa{
+    background-color: #FFC800;
+    padding: 10px;
+    color: #495FC2;
+    border-radius: 10px;
+    >svg{
+        height: 3vh;
+    }
+}
+.boton-lupa:hover{
+    background-color: #495FC2;
+    padding: 10px;
+    border-radius: 10px;
+    >svg{
+        height: 3vh;
+        >path{
+            fill: #FFC800;
         }
     }
 }
 .b{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 14%;
+    margin-right: 14%;
     padding-top: 2%;
-}
-.container {
-    background: #495FC2;
-    color: white;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    .container {
+        background: #495FC2;
+        color: white;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 50px;
+        color: white;
+    }
+    .buscador-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .grupo {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: white;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+        input:focus, select:focus {
+            border-color: #495FC2;
+        }
+        
+        .busca2 {
+            background: #FFC800;
+            color: #495FC2;
+            border: none;
+            padding: 0px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+        
+        .busca2:hover {
+            background: #495FC2;
+            color: #FFC800;
+        }
+    }
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 50px;
-    color: white;
-}
-.buscador-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-.grupo {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: white;
-}
-
-input, select {
-    width: 100%;
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-}
-
-input:focus, select:focus {
-    border-color: #495FC2;
-}
-
-.search-button {
-    background: #FFC800;
-    color: #495FC2;
-    border: none;
-    padding: 0px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: background 0.3s ease;
-}
-
-.search-button:hover {
-    background: #495FC2;
-    color: #FFC800;
-}
 .ba1{
     background-color: #495FC2;
 }
+
+
 #s4{
     .mapa {
         display: flex;
         justify-content: center;
         margin-top: 2%;
         margin-bottom: 2%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 14%;
+        margin-right: 14%;
         border: 5px solid white;
     }
     
@@ -300,48 +305,77 @@ input:focus, select:focus {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    .hotel-casilla {
+        width: 73%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #d6e4ff;
+        border-radius: 10px;
+        border: 3px solid #ffd700;
+        padding: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
+    .hotel-casilla img {
+        border-radius: 10px;
+        margin-right: 20px;
+        object-fit: cover;
+    }
+    
+    .hotel-info {
+        width: 70%;
+        flex-grow: 1;
+    }
+    
+    .hotel-info h2 {
+        margin: 0;
+        font-size: 20px;
+    }
+    .hotel-info p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .rating {
+        font-weight: bold;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 10px;
+    }
 }
-.hotel-casilla {
-    width: 80%;
-    display: flex;
-    background-color: #d6e4ff;
-    border-radius: 10px;
-    border: 3px solid #ffd700;
-    padding: 20px;
-    margin-bottom: 20px;
-    align-items: center;
-}
-
-.hotel-casilla img {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    margin-right: 20px;
-    object-fit: cover;
-}
-
-.hotel-info {
-    flex-grow: 1;
-}
-
-.hotel-info h2 {
-    margin: 0;
-    font-size: 20px;
-}
-.hotel-info p {
-    font-size: 14px;
-    margin-top: 10px;
-}
-.rating {
-    font-weight: bold;
-    background-color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 10px;
-}
-
 #s6{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    >div{
+        width: 70%;
+    }
+    >div:nth-child(2){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        >article{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+    .texto{
+        text-align: center;
+        color: #FFC800;
+        font-weight: bold;
+        background-color: #007bff;
+        padding: 40px;
+    }
+}
+
+#s7{
     display: flex;
     padding-top: 15%;
     justify-content: center;
@@ -351,55 +385,52 @@ input:focus, select:focus {
     background-repeat: no-repeat;
     height: 100vh;
     padding-bottom: 6%;
-}
-.search-section {
-    background-color: #007bff;
-    padding: 40px;
-    color: white;
-}
-
-.search-section h2,
-.search-section h3 {
-    text-align: center;
-}
-
-form {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.form-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 21px;
-}
-
-.form-row label {
-    width: 40%;
-}
-
-.form-row input {
-    width: 50%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-.submit-btn {
-    background-color: #ffcc00;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: block;
-    width: 100%;
-    margin-top: 20px;
+    .search-section {
+        background-color: #007bff;
+        padding: 40px;
+        color: white;
+    }
+    
+    .search-section h2,
+    .search-section h3 {
+        text-align: center;
+    }
+    
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 21px;
+    }
+    
+    .form-row label {
+        width: 40%;
+    }
+    
+    .form-row input {
+        width: 50%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .submit-btn {
+        background-color: #ffcc00;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
 }
 
 footer{
     display: flex;
     justify-content: space-around;
     background-color: #495FC2;
+    color: white;
     
     >p{
         width: 30%;
