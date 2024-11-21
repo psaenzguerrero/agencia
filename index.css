@@ -351,7 +351,12 @@ header button{
     justify-content: center;
     flex-wrap: wrap;
     >div{
-        width: 70%;
+        width: 90%;
+        margin-bottom: 1%;
+    }
+    >div:nth-child(1){
+        width: 60%;
+        
     }
     >div:nth-child(2){
         display: flex;
@@ -363,28 +368,42 @@ header button{
             flex-flow: column;
             justify-content: center;
             align-items: center;
+            margin-bottom: 5%;
+            border: 5px solid #FFC800;
+            border-radius: 10px;
+            background-color: #d6e4ff;
+            padding: 1%;
+            >h2{
+                margin: 5%;
+                width: 100%;
+            }
+            >a{
+                margin-bottom: 5%;
+            }
         }
 
     }
     .texto{
         text-align: center;
-        color: #FFC800;
+        color: black;
         font-weight: bold;
-        background-color: #007bff;
+        background-color: #d6e4ff;
         padding: 40px;
+        border: 5px solid #FFC800;
+        border-radius: 10px;
     }
 }
 
 #s7{
     display: flex;
-    padding-top: 15%;
+    padding-top: 6%;
     justify-content: center;
     background-image: url(./img/fondo\ 1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    padding-bottom: 6%;
+    padding-bottom: 15%;
     .search-section {
         background-color: #007bff;
         padding: 40px;
