@@ -146,20 +146,16 @@ header button{
 #s2{
     background-color: white;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
+    justify-content: center;
 }
 #s2>div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
+    text-align: center;
+    
     padding-top: 2%;
     padding-bottom: 2%;
 }
-#s2>div>h3{
-    padding-left: 1%;
-}
+
 
 #s3{
     padding-top: 10%;
@@ -407,9 +403,10 @@ header button{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #495FC2;
     >div{
         width: 90%;
-        margin-bottom: 1%;
+        margin-bottom: 1%;    
     }
     >div:nth-child(1){
         width: 60%;   
@@ -417,7 +414,7 @@ header button{
         >div:nth-child(2){
             z-index: 0;
             width: 100%;
-            height: 15vh;
+            height: 11vh;
             overflow-x: hidden;
             img:nth-child(1){
                 width: 10%;
@@ -463,7 +460,7 @@ header button{
         text-align: center;
         color: black;
         font-weight: bold;
-        background-color: #d6e4ff;
+        background-color: white;
         padding: 40px;
         border: 5px solid #FFC800;
         border-radius: 10px;
@@ -521,17 +518,224 @@ header button{
     }
     
 }
-#s8{
-    padding-top: 300px;
-    background-image: url(./img/fondo\ 1.png);
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 150px;
-    display: flex;
-    justify-content: center;
-    >div{
+    #s9 {
+        padding-top: 10%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        } 
+        .item {
+            min-width: 100%;
+            text-align: center;
+        }
+        .item img {
+            height: auto;
+            border-radius: 10px;
+        }
+        .btn {
+            position: absolute;
+            transform: translateY(-50%);
+            background-color: #495FC2;
+            color: white;
+            border: none;
+            font-size: 2em;
+            padding: 0.5em;
+            cursor: pointer;
+            z-index: 100;
+        }
+        
+        .btn.prev {
+            left: 100px;
+        }
+        
+        .btn.next {
+            right: 100px;
+        }
         
     }
+    
+    
+    /* Form section */
+    #s10 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: white;
+        padding: 2em 1em;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 400px;
+            gap: 1em;
+            box-sizing: border-box;
+        }
+        
+        label {
+            width: 100%;
+        }
+        
+        input, button {
+            width: 100%;
+            padding: 0.8em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        button.form-submit {
+            background-color: #495FC2;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+    }
+
+
+#s11 {
+    padding: 2em;
+    text-align: center;
+    background-color: #eef2f3;
+    h2 {
+        margin-bottom: 1em;
+    }
+}
+
+/* Help Options Section */
+#s12{
+    padding: 2em;
+    background-color: white;
+    h2 {
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5em;
+        margin-top: 2em;
+    }
+    
+    .grid-item {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1.5em;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+    
+    .grid-item h3 {
+        color: #495FC2;
+        margin-bottom: 0.5em;
+    }
+    
+    .grid-item a {
+        display: inline-block;
+        margin-top: 1em;
+        color: #495FC2;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .grid-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+/* Preguntas Frecuentes */
+#s13 {
+    padding: 2em;
+    background-color: #eef2f3;
+    text-align: center;
+    .i3 {
+        margin-bottom: 1.5em;
+    }
+    
+    .i3 h3 {
+        color: #495FC2;
+        margin-bottom: 0.5em;
+    }
+    
+    .i3 p {
+        color: #555;
+    }
+}
+/* Contact Form Section */
+.contact-form {
+    padding: 2em;
+    background-color: #eef2f3;
+    text-align: center;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact-form label {
+    text-align: left;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    padding: 0.8em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #495FC2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+
+
+/* Testimonios */
+.testimonials {
+    padding: 2em;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials .testimonial {
+    margin: 1em auto;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial p {
+    font-style: italic;
+    color: #333;
+}
+
+.testimonials .testimonial span {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+    color: #495FC2;
 }
 
 footer{
@@ -556,4 +760,30 @@ footer{
         margin-top: 5%;
     }
 
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .faq-item, .testimonial {
+        margin: 1em;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form form {
+        padding: 0 1em;
+    }
+    .header-buttons button {
+        padding: 0.4em 0.8em;
+    }
+
+    .form-container {
+        max-width: 90%;
+    }
+    
+}
+@media (max-width: 1080px){
+    #s7{
+        height: 141vh;
+    }
 }
