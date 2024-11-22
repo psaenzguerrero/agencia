@@ -599,7 +599,8 @@ header button{
 
 
 #s11 {
-    padding: 2em;
+    padding-top: 10%;
+    padding-bottom: 1%;
     text-align: center;
     background-color: #eef2f3;
     h2 {
@@ -667,75 +668,74 @@ header button{
         color: #555;
     }
 }
-/* Contact Form Section */
-.contact-form {
-    padding: 2em;
-    background-color: #eef2f3;
-    text-align: center;
-}
 
-.contact-form form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-
-.contact-form label {
-    text-align: left;
-    margin-bottom: 0.5em;
-    color: #333;
-}
-
-.contact-form input, .contact-form textarea, .contact-form button {
-    padding: 0.8em;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact-form button {
-    background-color: #495FC2;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-    background-color: #333;
-}
-
-
-
-/* Testimonios */
-.testimonials {
+#s14 {
     padding: 2em;
     background-color: #f9f9f9;
     text-align: center;
+    .testimonial {
+        margin: 1em auto;
+        max-width: 600px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1em;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        p {
+            font-style: italic;
+            color: #333;
+        } 
+          span {
+            display: block;
+            margin-top: 1em;
+            font-weight: bold;
+            color: #495FC2;
+        }
+    }
+    
+      
 }
 
-.testimonials .testimonial {
-    margin: 1em auto;
-    max-width: 600px;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1em;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials .testimonial p {
-    font-style: italic;
-    color: #333;
-}
-
-.testimonials .testimonial span {
-    display: block;
-    margin-top: 1em;
-    font-weight: bold;
-    color: #495FC2;
+ 
+/* Contact Form Section */
+#s15 {
+    padding: 2em;
+    background-color: #eef2f3;
+    text-align: center;
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+     label {
+        text-align: left;
+        margin-bottom: 0.5em;
+        color: #333;
+    }
+    
+     input,  textarea,  button {
+        padding: 0.8em;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+     button {
+        background-color: #495FC2;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+     button:hover {
+        background-color: #333;
+    }
+    
+    
 }
 
 footer{
@@ -783,7 +783,25 @@ footer{
     
 }
 @media (max-width: 1080px){
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 2%;
+    }
+    #s3{
+        padding-top: 12%;
+    }
+    #s6{
+        padding-top: 35%;
+    }
     #s7{
         height: 141vh;
+    }
+    #s9{
+        padding-top: 30%;
+    }
+    #s11{
+        padding-top: 30%;
     }
 }
