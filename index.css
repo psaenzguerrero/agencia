@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: "Inter", sans-serif;
 }
 img{
     max-width: 100%;
@@ -154,6 +156,18 @@ header button{
     
     padding-top: 2%;
     padding-bottom: 2%;
+    >h2{
+        padding-top: 10px;
+    }
+    >h3{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    >a{
+        text-decoration: none;
+        
+        padding: 10px;
+    }
 }
 
 
@@ -478,7 +492,7 @@ header button{
     height: 100vh;
     padding-bottom: 5%;
     .search-section {
-        background-color: #007bff;
+        background-color:  #495FC2;
         padding: 40px;
         color: white;
     }
@@ -520,6 +534,7 @@ header button{
 }
     #s9 {
         padding-top: 10%;
+        padding-bottom: 1%;
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -533,13 +548,13 @@ header button{
             text-align: center;
         }
         .item img {
-            height: auto;
+            height: 30vh;
             border-radius: 10px;
         }
         .btn {
             position: absolute;
             transform: translateY(-50%);
-            background-color: #495FC2;
+            background-color: transparent;
             color: white;
             border: none;
             font-size: 2em;
@@ -549,23 +564,41 @@ header button{
         }
         
         .btn.prev {
-            left: 100px;
+            left: 30%;
         }
         
         .btn.next {
-            right: 100px;
+            right: 30%;
+        }
+        h2, p{
+            margin: 20px;
         }
         
     }
+    .botonI{
+        background-color: white;
+        color:  #495FC2;
+        text-decoration: none;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .botonI:hover{
+        color: white;
+        background-color: #495FC2;
+        border: 1px solid #FFC800;
+        text-decoration: none;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 10px;
+    }
     
-    
-    /* Form section */
     #s10 {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: white;
+        background-color: #495FC2;
         padding: 2em 1em;
         .container {
             display: flex;
@@ -608,7 +641,6 @@ header button{
     }
 }
 
-/* Help Options Section */
 #s12{
     padding: 2em;
     background-color: white;
@@ -696,8 +728,6 @@ header button{
       
 }
 
- 
-/* Contact Form Section */
 #s15 {
     padding: 2em;
     background-color: #eef2f3;
@@ -761,7 +791,7 @@ footer{
     }
 
 }
-/* Responsive */
+
 @media (max-width: 768px) {
     .faq-item, .testimonial {
         margin: 1em;
