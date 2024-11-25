@@ -128,7 +128,7 @@ header button{
 
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 8%;
+    padding-top: 4%;
 
     input:nth-child(1){
         margin-right: 5%;
@@ -705,7 +705,7 @@ header button{
     padding: 2em;
     background-color: #f9f9f9;
     text-align: center;
-    .testimonial {
+    .texto {
         margin: 1em auto;
         max-width: 600px;
         background-color: white;
