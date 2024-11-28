@@ -288,8 +288,7 @@ footer{
         padding-bottom: 5%;
     }
     >div>div:nth-child(1){
-        display: flex
-;
+        display: flex;
         justify-content: space-between;
         height: 5vh;
         
