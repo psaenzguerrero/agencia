@@ -96,13 +96,13 @@ img{
 /* CABECERA */
 header{
     background-color: #495FC2;
-    height: 5vh;
+    height: 7vh;
     position: fixed;
     width: 100%;
     z-index: 999;
 }
 nav{
-    margin-top: 2%;
+    margin-top: 3%;
     background-color: white;
     display: flex;
     text-align: center;
@@ -377,6 +377,8 @@ footer{
 
 /* MAPA */
 #s4{
+    padding-top: 6%;
+    padding-bottom: 3%;
     .mapa {
         display: flex;
         justify-content: center;
@@ -492,7 +494,8 @@ footer{
  }
 
 #s6{
-    padding-top: 10%;
+    padding-top: 15%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -601,13 +604,13 @@ footer{
 }
 /* SLIDERS */
 #s9 {
-    padding-top: 10%;
-    padding-bottom: 1%;
+    padding-top: 12%;
+    padding-bottom: 5%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: #d6e4ff;
     .container {
         display: flex;
         transition: transform 0.5s ease-in-out;
@@ -623,7 +626,8 @@ footer{
         position: absolute;
         transform: translateY(50%);
         background-color: transparent;
-        color: white;
+        color: #FFC800;
+
         border: none;
         font-size: 2em;
         padding: 0.5em;
@@ -632,11 +636,11 @@ footer{
     }
     
     .btn.prev {
-        left: 30%;
+        left: 20%;
     }
     
     .btn.next {
-        right: 30%;
+        right: 20%;
     }
     h2, p{
         margin: 20px;
@@ -693,8 +697,8 @@ footer{
 
 
 #s11 {
-    padding-top: 10%;
-    padding-bottom: 1%;
+    padding-top: 15%;
+    padding-bottom: 5%;
     text-align: center;
     background-color: #495FC2;
     h2 {
@@ -858,8 +862,6 @@ footer{
     #s12 .grid{
         display: block;
     }  
-}
-@media (max-width: 1080px){
     nav{
         display: flex;
         justify-content: center;
@@ -880,7 +882,8 @@ footer{
         height: 96vh;
     }
     #s9 {
-        padding-top: 33%;
+        padding-top: 40%;
+        padding-bottom: 20%;
         .btn.next {
             right: 10%;
         }
@@ -889,6 +892,8 @@ footer{
         }
     }
     #s11{
-        padding-top: 30%;
+        padding-top: 35%;
+        padding-bottom: 7%;
     }
 }
+
